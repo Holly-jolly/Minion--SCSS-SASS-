@@ -1,0 +1,93 @@
+.hair {
+  padding: 0;
+
+  li {
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    width: 5px;
+    height: 45px;
+    margin: 10px;
+    list-style: none;
+    border: solid 2px #555;
+    border-radius: 140%;
+    z-index: 2;
+  }
+}
+
+.hair-left{
+  li{
+    border-left:none;
+    border-bottom:none;  
+ 
+
+//1st hair
+    &:nth-child(1) {
+      margin: 20px 0 0 -60px;    // hair position
+      transform: rotate(-20deg); // hair direction
+    }
+
+//2nd hair
+    
+    &:nth-child(2) {
+      height: 30px;
+      margin:45px 0 0-75px;
+      transform: rotate(-50deg);
+    }
+
+//3rd hair 
+
+    &:nth-child(3) {
+      height: 36px;
+      margin: 15px 0 0 -35px;
+      transform: rotate(-10deg);
+    }
+
+//4th hair
+
+    &:nth-child(4) {
+      height: 26px;
+      margin: 35px 0 0 -13px;
+      transform: rotate(-20deg);
+    }  
+
+  }
+}
+
+.hair-right{
+  li{
+    border-left:none;
+    border-bottom:none;  
+
+// 1st hair
+    &:nth-child(1) {
+      margin: 23px 0 0 60px;
+      transform: rotate(20deg);
+    }
+
+// 2nd hair
+    &:nth-child(2) {
+      height: 30px;
+      margin: 45px 0 0 75px;
+      transform: rotate(50deg);
+    }
+
+//3rd hair
+    &:nth-child(3) {
+      height: 36px;
+      margin: 15px 0 0 35px;
+      transform: rotate(10deg);
+    }
+
+// 4th hair
+    &:nth-child(4) {
+      height: 34px;
+      margin: 20px 0 0 13px;
+      transform: rotate(20deg);
+    }
+
+
+  }
+
+}
+
